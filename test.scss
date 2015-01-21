@@ -1,0 +1,25 @@
+$table-cell-padding: 8px;
+$table-border-color: #cccccc;
+$table-footer-topspace: 10px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.test-table {
+  float: left;
+
+  td {
+    white-space: nowrap;
+  }
+
+  td.action-column {
+    position: relative;
+    border: 1px solid rgb(221, 221, 221);
+
+    div.fixed {
+      
+    }
+  }
+}

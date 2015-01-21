@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.test-table {
+  float: left; }
+  .test-table td {
+    white-space: nowrap; }
+  .test-table td.action-column {
+    position: relative;
+    border: 1px solid #dddddd; }
